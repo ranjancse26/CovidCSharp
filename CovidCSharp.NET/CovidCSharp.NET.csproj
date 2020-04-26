@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Description>Coronavirus COVID19 API. More info - https://documenter.getpostman.com/view/10808728/SzS8rjbc?version=latest</Description>
+    <Copyright>Ranjan Dailata</Copyright>
+    <PackageLicenseFile>License.txt</PackageLicenseFile>
+    <PackageTags>Covid, Corona, Covid19, Covid Tracking, Corona Tracking API</PackageTags>
+    <PackageReleaseNotes>Coronavirus COVID19 API</PackageReleaseNotes>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageProjectUrl />
+    <RepositoryUrl>https://github.com/ranjancse26/CovidCSharp</RepositoryUrl>
+    <RepositoryType>Public</RepositoryType>
+    <PackageIcon>corona.jpg</PackageIcon>
+    <PackageIconUrl />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Text.Json" Version="4.7.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="corona.jpg">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="licenses\License.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
