@@ -28,7 +28,7 @@ namespace ConsoleApp
             // Note - Case status can be - confirmed, recovered, deaths
             
             CaseService caseService = new CaseService();
-            IEnumerable<CoronaCase> cases = caseService.GetDayOneCasesByCountry("india");
+            IEnumerable<CoronaCase> cases = caseService.GetDayOneCasesByCountry(country);
 
             // day one cases by country with status
             cases = caseService.GetDayOneCasesByCountry(country, "deaths");
