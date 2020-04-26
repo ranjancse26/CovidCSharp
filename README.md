@@ -53,3 +53,24 @@ cases = caseService.GetLiveByCountryAndAllStatus(country);
 // world total wip cases
 var worldWIPCases = caseService.GetWorldTotalWIPCases();
 ```
+
+### Get the list of countries
+
+```c#
+CountryService countryService = new CountryService();
+var countries = countryService.GetCountries();
+```
+
+### Get COVID Stats
+
+```c#
+StatisticsService statisticsService = new StatisticsService();
+var stats = statisticsService.GetStatistics();
+```
+
+### Get COVID Summary
+
+```c#
+SummaryService summaryService = new SummaryService();
+var summary = summaryService.GetGlobalSummary();
+```
